@@ -24,12 +24,19 @@ main {
   box-shadow: 9px 9px;
   border: 1px solid #111111;
 }
-
+/* 
 section {
+  margin-bottom: 20px;
+} */
+main > section:nth-child(1) {
+  margin-bottom: 18px;
+}
+
+main > section:nth-child(2) {
   margin-bottom: 22px;
 }
 
-section:first-child img {
+main > section:nth-child(1) img {
   border-radius: 10px;
   width: 100%;
 }
@@ -67,14 +74,14 @@ h2:hover {
   line-height: 25px;
   color: #6b6b6b;
   font-weight: 500;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 main > section:nth-child(3) {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 19px;
+  /* margin-bottom: 1px; */
   font-size: 0.9rem;
   font-weight: 500;
 }
